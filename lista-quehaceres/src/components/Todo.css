@@ -1,0 +1,30 @@
+.toDoList{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+.toDoList > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.toDoList > p {
+    line-height: 0;
+}
+.checkmark {
+    height: 15px;
+    width: 15px;
+    accent-color: #bdbdbd;
+}
+.delete-btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.complete-task {
+    text-decoration: line-through;
+}

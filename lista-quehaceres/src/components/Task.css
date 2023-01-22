@@ -1,0 +1,20 @@
+.formita{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.taskGenerator{
+    background-color: #efefef;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+}
+.submit-btn{
+    background-color: #0019f8;
+    color: white;
+    border-radius: 5px;
+    width: 65px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+}
